@@ -1,0 +1,8 @@
+---
+  elasticsearch:
+    hosts:
+      aws_centos:
+        ansible_connection: ssh
+        ansible_host: "ec2-34-219-79-140.us-west-2.compute.amazonaws.com"
+        ansible_user: "ec2-user"
+        ansible_ssh_private_key_file: "/Users/webteam/Projects/DevOps/aws/oregon-us-west-2.pem"
